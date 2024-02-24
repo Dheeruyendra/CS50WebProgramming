@@ -37,6 +37,13 @@ git pull
 ```
 `<br>`
 
+Reset changes:
+```bash
+git reset --hard <commit hash>
+git reset --head origin/master # Reset to remote repository
+```
+`<br>`
+
 Create a new branch:
 ```bash
 git branch <branch_name>
